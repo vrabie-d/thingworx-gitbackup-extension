@@ -278,7 +278,7 @@ public class GitBackupTemplate extends Thing {
 		_logger.trace("Entering Service: Pull");
 		String str_CurrentMethodName = "Pull";
 		try {
-
+			LogOperationResult("CHANGES NOTICED", "TRYING MY BEST");
 			Git myGitFolder = GetRepository();
 			User us_currentUser = UserUtilities.findUser(UserUtilities.getCurrentUser());
 			ValueCollection vc_RepoCredentials = getGitRepoRemoteCredential(us_currentUser); 
