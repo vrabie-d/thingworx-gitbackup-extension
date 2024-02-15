@@ -77,7 +77,7 @@ import com.thingworx.types.primitives.InfoTablePrimitive;
 import com.thingworx.types.primitives.PasswordPrimitive;
 import com.thingworx.types.primitives.StringPrimitive;
 import com.thingworx.webservices.context.ThreadLocalContext;
-
+//
 @ThingworxBaseTemplateDefinition(name = "GenericThing")
 
 @ThingworxConfigurationTableDefinitions(tables = {
